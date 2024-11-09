@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    padding: 17px 77px;
+} */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 77px;
+    background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
+    & .title{
+        line-height: 96px;
+        font: 600 64px Poppins;
+        color:  #FFFFFF;
+        & span{
+            color: #BC8AFC;
+        }
+    }
+    & .links{
+        display: flex;
+        gap:59px;
+        align-items: center;
+        color: #FFFFFF;
+        line-height: 30px;
+        font: 400 20px Poppins;
+        margin-left: 350px;
+    }
+    & .sign_in{
+        border-radius: 7px;
+        box-shadow: 10px 7px 9px 0px #00000040;
+        color: #000000;
+        line-height: 33px;
+        font: 500 22px Poppins;
+        background: #bb8afccc;
+        align-self:center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 132px;
+        height: 58px;
+    }
+}
+main .preview{
+    background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
+    display: flex;
+    align-items: center;
+    padding: 116px 77px 0 77px;
+    justify-content: space-between;
+    padding-bottom: 200px;
+    & .left{
+        max-width: 631px;
+        & h2{
+            line-height: 96px;
+            font: 600 80px Poppins; 
+            color: rgba(255, 255, 255, 1);
+        }
+        & p {
+            line-height: 32px;
+            font: 400 20px Poppins; 
+            color: rgba(255, 255, 255, 1);
+            margin: 32px 0;
+        }
+        /* & button{
+            border-radius: 7px;
+            box-shadow: 10px 7px 9px 0px #00000040;
+            color: #000000;
+            line-height: 33px;
+            font: 500 22px Poppins;
+            background: #bb8afccc;
+            display: flex;
+            flex-direction: row;
+            width: 212px;
+            height: 58px;
+            text-align: center;
+            & div{
+                align-self: center;
+                margin-right: 4px;
+                margin-left: 25px;
+            }
+            & img {
+                align-self: center;
+            }
+        } */
+    } 
+}
+main .start_button{
+    border-radius: 7px;
+    box-shadow: 10px 7px 9px 0px #00000040;
+    color: #000000;
+    line-height: 33px;
+    font: 500 22px Poppins;
+    background: #bb8afccc;
+    display: flex;
+    flex-direction: row;
+    width: 212px;
+    height: 58px;
+    text-align: center;
+    & div{
+        align-self: center;
+        margin-right: 4px;
+        margin-left: 25px;
+    }
+    & img {
+        align-self: center;
+    }
+}
+main .statistic{
+    background: rgba(255, 255, 255, 1);
+    padding: 0 110px;
+    margin: 0 77px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    z-index: 2;
+    align-items: center;
+    margin-top: -100px;
+    & .block{
+        & h2{
+            color: rgba(31, 38, 46, 1);
+            line-height: 72px;
+            font: 600 48px Poppins;
+            & span{
+                color: rgba(188, 138, 252, 1);
+            }
+        }
+        & p{
+            color: rgba(31, 38, 46, 1);
+            line-height: 30px;
+            font: 400 20px Poppins;
+        }
+    }
+}
+main .finances{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 77px;
+    margin-top: 160px;
+    & .left img{
+       border-radius: 8px;
+    }
+    & .right{
+        max-width: 611px;
+        align-self: center;
+        & h2{
+            color: rgba(0, 0, 0, 1);
+            line-height: 59px;
+            font: 600 48px Poppins;
+        }
+        & p{
+            color: rgba(0, 0, 0, 1);
+            line-height: 32px;
+            font: 400 20px Poppins;
+            margin: 16px 0;
+        }
+    }
+}
+main .our_service{
+    margin-top: 110px;
+    padding: 80px;
+    background: rgba(28, 146, 255, 0);
+    & h2{
+        color: rgba(0, 0, 0, 1);
+        line-height: 75px;
+        font: 600 48px Poppins;
+        margin-bottom: 40px;
+    }
+    & .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap:170px;
+    }
+    & .block{
+        & h5{
+            color:rgba(31, 38, 46, 1);
+            line-height: 32px;
+            font: 600 20px Poppins;
+            margin: 36px 0 12px 0;
+        }
+        & p{
+            color:rgba(0, 0, 0, 1);
+            line-height: 32px;
+            font: 400 20px Poppins;
+        }
+    }
+}
