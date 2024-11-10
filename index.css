@@ -162,6 +162,7 @@ main .our_service{
     margin-top: 110px;
     padding: 80px;
     background: rgba(28, 146, 255, 0);
+    padding-bottom: 300px;
     & h2{
         color: rgba(0, 0, 0, 1);
         line-height: 75px;
@@ -186,5 +187,31 @@ main .our_service{
             line-height: 32px;
             font: 400 20px Poppins;
         }
+    }
+}
+main .apps{
+    background: rgba(25, 4, 34, 1);
+    border: 1.02px solid rgba(117, 117, 117, 1);
+    padding: 0 77px;
+    display: flex;
+    padding: 107px 90px;
+    justify-content: space-between;
+    position: relative;
+    & .left{
+        & h2{
+            line-height: 62px;
+            font: 600 48px Poppins;
+            color: rgba(255, 255, 255, 1);
+        }
+        & .img{
+            display: flex;
+            gap:40px;
+            margin-top: 62px;
+        }
+    }
+    & .right{
+        position: absolute;
+        top: -200px;
+        right: 150px;
     }
 }
